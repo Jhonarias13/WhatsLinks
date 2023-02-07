@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		CDEE5A982989DAD900DC0AF7 /* Whatlinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whatlinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEE5A9B2989DAD900DC0AF7 /* WhatlinksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatlinksApp.swift; sourceTree = "<group>"; };
-		CDEE5A9D2989DAD900DC0AF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDEE5A9D2989DAD900DC0AF7 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		CDEE5A9F2989DADA00DC0AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDEE5AA12989DADA00DC0AF7 /* Whatlinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Whatlinks.entitlements; sourceTree = "<group>"; };
 		CDEE5AA32989DADA00DC0AF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };

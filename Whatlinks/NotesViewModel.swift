@@ -17,8 +17,11 @@ final class NotesViewModel: ObservableObject {
     
     func saveNote(description: String) {
         let newNote = NoteModel(description: description) // inicializa el valor
-        notes.insert(newNote, at: 0)
-        encodeAndSaveAllNotes()
+        if !notes.contains(where: {$0.description == description}) {
+            notes.insert(newNote, at: 0)
+            encodeAndSaveAllNotes()
+        }
+        
     }
     
     private func encodeAndSaveAllNotes() {
@@ -43,8 +46,8 @@ final class NotesViewModel: ObservableObject {
         encodeAndSaveAllNotes()
     }
     
-    func updateFavoriteNote(notes: Binding<NoteModel>) {
-        notes.wrappedValue.isFavorited = !notes.wrappedValue.isFavorited
+    func updateFavoriteNote(note: Binding<NoteModel>) {
+        note.wrappedValue.isFavorited = !note.wrappedValue.isFavorited
         encodeAndSaveAllNotes()
     }
     
